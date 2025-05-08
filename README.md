@@ -1,8 +1,12 @@
-# BuildSomethingCool
-A project for AI in software development where 2 AI models are combined to create something cool and fun.
+# A Story Worth A Thousand Words
+A project for AI in software development where two AI models are combined to create something cool and fun.
 
-This project has the user input an image then creates a caption which is then used to create a story using a random sentiment added into the prompt. The user then guesses what sentiment was used in the generation of the story. 
+This project has the user input an image for which a caption is generated. The caption is then used to create a story using a random sentiment added into the prompt. The user then guesses what sentiment was used in the generation of the story. 
 
-This project is built using gemini for text generation and the hugging face image to text caption generator from hysts/image-captioning-with-git (at this link https://huggingface.co/spaces/hysts/image-captioning-with-git/tree/main).
+This project was built using: 
+1) Hugging face image to text caption generator from hysts/image-captioning-with-git (available at this link https://huggingface.co/spaces/hysts/image-captioning-with-git/tree/main)
+2) Gemini for text generation
 
-To run this open the google collab from the current BuildSomethingCool.ipynb file. Run everything on gpu and then interact with the model in the gradio interface or if you are reviewing this model within a week of 5/5/26 you interact with the model at this temporary link. https://cdaea439173d671ac7.gradio.live 
+To run the demo, open the jupyter notebook file titled "BuildSomethingCool.ipynb". Run everything on GPU (if available but not necessary) then interact with the model in the gradio interface using the link following the text "Running on public URL: ...".
+
+This demo is also made publically available on HuggingFace Spaces: https://huggingface.co/spaces/PranaviK/A-Story-Worth-A-Thousand-Words 
